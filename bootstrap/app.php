@@ -96,8 +96,11 @@ $app->routeMiddleware([
 
 // $app->register(App\Providers\AppServiceProvider::class);
 $app->register(App\Providers\AuthServiceProvider::class);
+<<<<<<< HEAD
 $app->register(Laravel\Passport\PassportServiceProvider::class);
 $app->register(Dusterio\LumenPassport\PassportServiceProvider::class);
+=======
+>>>>>>> dab67cfefd369a9b25834564e6141251f961f2a7
 // $app->register(App\Providers\EventServiceProvider::class);
 
 /*

@@ -32,6 +32,7 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ]
     },
+    
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
